@@ -1,0 +1,17 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "final project for my IE104.M11",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass scss:assets/css --watch"
+  },
+  "author": "AT",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.43.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

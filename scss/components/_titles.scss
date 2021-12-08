@@ -1,0 +1,25 @@
+@use "../custom" as *;
+@use "../base/typography" as *;
+
+.title {
+  font-family: "Futura Bold", Lato, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+
+.title-primary {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: url(../../assets/images/red.png);
+  background-position: center center;
+  background-size: cover;
+  color: $primary;
+}
+
+.title-secondary {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: url(../../assets/images/white.png);
+  background-position: center center;
+  background-size: cover;
+  color: $secondary;
+}

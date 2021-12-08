@@ -1,0 +1,16 @@
+@use "../custom" as *;
+
+.menuMainNav.nav {
+  .nav-link {
+    color: $secondary;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: "Futura Bold";
+    text-transform: uppercase;
+  }
+
+  .nav-link.active {
+    background-color: transparent;
+    color: $blue;
+  }
+}

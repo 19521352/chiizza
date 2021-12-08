@@ -1,0 +1,31 @@
+@use "../custom" as *;
+
+@font-face {
+  font-family: "Futura Bold";
+  src: url(/assets/fonts/Futura\ Bold.otf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: "Futura Bold", Lato, Arial, Helvetica, sans-serif;
+  // text-transform: uppercase;
+}
+
+// Responsive font size
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: $font-size-base * 1.25;
+  }
+}
+
+strong {
+  color: $primary;
+}

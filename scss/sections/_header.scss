@@ -1,0 +1,60 @@
+@use "../custom" as *;
+@use "../base/typography" as *;
+
+//HEADER NAVIGATION BAR (MAIN NAVBAR)
+.mainNavbar {
+  .navbar-collapse {
+    display: none;
+
+    .nav-link {
+      color: $black;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+    .active {
+      color: $primary;
+    }
+
+    .nav-item:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  .navbar-external-collapse {
+    .nav-link {
+      font-family: "Futura Bold", Arial, Helvetica, sans-serif;
+      color: $white;
+    }
+  }
+
+  // Responsive for desktop
+  @include media-breakpoint-up(lg) {
+    .navbar-collapse {
+      display: inline-block;
+    }
+
+    .navbar-external-collapse {
+      display: none;
+    }
+  }
+
+  // CUSTOMIZE NAVBAR'S TOGGLER
+
+  .navbar-toggler {
+    border: none;
+    padding-left: 0;
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .custom-navbar-toggler-icon {
+    font-size: 2rem;
+  }
+}

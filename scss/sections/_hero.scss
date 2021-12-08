@@ -1,0 +1,76 @@
+@use "../custom" as *;
+
+// Styling Hero Section
+.hero {
+  position: relative;
+  padding: 0;
+  padding-bottom: 50%;
+  height: 32.5rem;
+
+  .hero-img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-caption {
+    position: absolute;
+    bottom: 10%;
+    // padding-bottom: 4rem;
+    // skew the caption container
+    transform: skewY(-1.75deg);
+    transform-origin: left bottom;
+    overflow: hidden;
+
+    // keep the content from skewing
+    .row {
+      transform: skewY(1.75deg);
+    }
+  }
+
+  .hero-text {
+    font-family: "Lato", sans-serif;
+    // font-size: 6.5rem;
+    // font-weight: 900;
+    // line-height: 5rem;
+
+    &--fill {
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-image: url(/assets/images/white.png);
+      background-position: center;
+      background-size: cover;
+      color: $white;
+      display: block;
+      // padding-top: 22px;
+      // margin-top: -22px;
+    }
+
+    &--stroke {
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: $white;
+      color: $white;
+      display: block;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .hero-text {
+      font-size: 6.5rem;
+      font-weight: 900;
+      line-height: 5rem;
+    }
+  }
+
+  .hero-action {
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+  }
+
+  .hero-action-btn {
+    padding: $btn-padding-y-lg * 1.5 $btn-padding-x-lg * 1.5;
+    font-size: $btn-font-size-lg * 1.5;
+  }
+}

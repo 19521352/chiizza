@@ -1,0 +1,9 @@
+@use "../custom" as *;
+
+.blog-article-sidebar {
+  img {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 2px rgba($gray-600, 0.4);
+  }
+}

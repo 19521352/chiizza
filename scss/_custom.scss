@@ -1,0 +1,19 @@
+// #########################################################
+//            COPY BOOTSTRAP VARIABLES YOU NEED TO OVERIDE INTO THIS FILE
+// #########################################################
+
+// COPY VARIABLES YOU WANT TO OVERIDE HERE
+
+// Color
+$primary: #e2173d;
+$secondary: #fff;
+$dark: #252729;
+
+$body-bg: #fff;
+
+// Button
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

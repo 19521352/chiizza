@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Outfit:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER NAVIGATION -->
+    <header class="mainNavbar">
+      <nav class="navbar navbar-expand-lg bg-white fw-bolder py-3">
+        <div class="container-lg">
+          <!-- Hamburger button for mobile devices -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternal"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <ion-icon
+              name="menu-sharp"
+              class="custom-navbar-toggler-icon"
+            ></ion-icon>
+          </button>
+
+          <!-- Navbar brand (LOGO) -->
+          <a class="navbar-brand me-auto me-lg-5 text-primary" href="index.html"
+            >LOGO</a
+          >
+
+          <!-- Navbar collapse hide for mobile devicess -->
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LOCATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOGS</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ORDER NOW button -->
+          <button class="btn btn-primary btn-lg" type="button">
+            ORDER NOW
+          </button>
+        </div>
+      </nav>
+
+      <!-- External navigation show when click the navbar toggler (used for mobile) -->
+      <div
+        class="navbar-external-collapse bg-primary fw-bolder pt-5"
+        id="navbarToggleExternal"
+      >
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LOCATIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- HERO SECTION -->
+    <section class="hero container-fluid">
+      <!-- Hero image -->
+      <img
+        src="/assets//images/chicken-hero-section.jpg"
+        alt="Fried chicken"
+        class="hero-img"
+      />
+
+      <!-- Hero bar -->
+      <div class="hero-caption container-fluid bg-primary pb-5">
+        <div class="container-lg">
+          <div class="row align-top">
+            <!-- Left bar -->
+            <div class="col-lg-8">
+              <h1
+                class="hero-text display-2 fw-bolder text-center text-lg-start"
+              >
+                <span class="hero-text--fill">IT'S ALWAYS</span>
+                <span class="hero-text--stroke">CHICKEN TIME.</span>
+              </h1>
+            </div>
+
+            <!-- Right bar -->
+            <div
+              class="
+                col-lg-4
+                d-flex
+                flex-column
+                align-items-lg-end
+                justify-content-center
+              "
+            >
+              <div class="hero-action text-center">
+                <p class="hero-action-text text-white">come on in.</p>
+                <a href="#" class="hero-action-btn btn btn-secondary"
+                  >ORDER NOW</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF HERO SECTION -->
+
+    <!-- PAGE CONTENT -->
+    <div class="page-content-container" id="home">
+      <!-- FEATURES SECTION -->
+      <!-- Feature -->
+      <section class="featured featured--type-1 py-5">
+        <div class="row container-lg mx-auto">
+          <div class="col-lg-5 offset-lg-1 p-0">
+            <img
+              class="featured-img featured-img--type-1"
+              src="assets/images/chicken-feature-1.jpg"
+              alt="Fried chicken with mayonaise sauce"
+            />
+          </div>
+          <div class="col-lg-5 offset-lg-1 order-1">
+            <h2
+              class="featured-title display-2 text-primary title title-primary"
+            >
+              CHICKEN FEATURE 1
+            </h2>
+            <div class="featured-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                omnis, illo ipsum magnam labore a quod voluptas cupiditate id
+                odio ea! Fugit quisquam adipisci deserunt! Maxime cupiditate
+                recusandae suscipit dolorem.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                eius voluptas alias, tempora error asperiores necessitatibus est
+                nisi dolorum voluptate, sed nesciunt. Porro necessitatibus enim
+                modi, consequuntur accusamus dolorem sint. Laudantium aliquam
+                architecto nesciunt deleniti eveniet nostrum magni cumque libero
+                repellendus qui perspiciatis amet non voluptatem ad sunt eos
+                recusandae labore quidem hic, sit omnis necessitatibus fugiat
+                officia doloremque. Perferendis.
+              </p>
+            </div>
+            <div class="featured-action">
+              <a href="#" class="featured-btn btn btn-lg btn-primary"
+                >EAT IT!</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature -->
+      <section class="featured featured--type-2 py-5">
+        <div class="row container-lg mx-auto">
+          <div class="col-lg-5 offset-lg-1 p-0">
+            <img
+              class="featured-img featured-img--type-2"
+              src="assets/images/chicken-feature-2.jpg"
+              alt="Fried chicken hamburger"
+            />
+          </div>
+          <div class="col-lg-5 offset-lg-1 order-1">
+            <h2
+              class="featured-title display-2 text-primary title title-primary"
+            >
+              CHICKEN FEATURE 2
+            </h2>
+            <div class="featured-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                omnis, illo ipsum magnam labore a quod voluptas cupiditate id
+                odio ea! Fugit quisquam adipisci deserunt! Maxime cupiditate
+                recusandae suscipit dolorem.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                eius voluptas alias, tempora error asperiores necessitatibus est
+                nisi dolorum voluptate, sed nesciunt. Porro necessitatibus enim
+                modi, consequuntur accusamus dolorem sint. Laudantium aliquam
+                architecto nesciunt deleniti eveniet nostrum magni cumque libero
+                repellendus qui perspiciatis amet non voluptatem ad sunt eos
+                recusandae labore quidem hic, sit omnis necessitatibus fugiat
+                officia doloremque. Perferendis.
+              </p>
+            </div>
+            <div class="featured-action">
+              <a href="#" class="featured-btn btn btn-lg btn-primary"
+                >EAT IT!</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature -->
+      <section class="featured featured--type-1 py-5">
+        <div class="row container-lg mx-auto">
+          <div class="col-lg-5 offset-lg-1 p-0">
+            <img
+              class="featured-img featured-img--type-1"
+              src="assets/images/chicken-feature-3.jpg"
+              alt="Fried chicken rice"
+            />
+          </div>
+          <div class="col-lg-5 offset-lg-1 order-1">
+            <h2
+              class="featured-title display-2 text-primary title title-primary"
+            >
+              CHICKEN FEATURE 3
+            </h2>
+            <div class="featured-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                omnis, illo ipsum magnam labore a quod voluptas cupiditate id
+                odio ea! Fugit quisquam adipisci deserunt! Maxime cupiditate
+                recusandae suscipit dolorem.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                eius voluptas alias, tempora error asperiores necessitatibus est
+                nisi dolorum voluptate, sed nesciunt. Porro necessitatibus enim
+                modi, consequuntur accusamus dolorem sint. Laudantium aliquam
+                architecto nesciunt deleniti eveniet nostrum magni cumque libero
+                repellendus qui perspiciatis amet non voluptatem ad sunt eos
+                recusandae labore quidem hic, sit omnis necessitatibus fugiat
+                officia doloremque. Perferendis.
+              </p>
+            </div>
+            <div class="featured-action">
+              <a href="#" class="featured-btn btn btn-lg btn-primary"
+                >EAT IT!</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF FEATURES SECTION -->
+
+      <!-- OPENING TIMES SECTION -->
+      <section class="open-time bg-primary text-secondary text-center py-5">
+        <div class="container">
+          <h2 class="open-time-title title title-secondary h2">
+            OPENING TIMES
+          </h2>
+
+          <hr class="mb-5" />
+        </div>
+
+        <!-- Show only for PC -->
+        <div class="container-lg d-none d-lg-block">
+          <div class="row">
+            <!-- City -->
+            <div class="col-6">
+              <h3 class="open-time__city h3">Ho Chi Minh City</h3>
+              <div class="row">
+                <div class="col-6">
+                  <div class="open-time__store-title h4 rotate">
+                    <span class="rotate-inv d-inline-block">STORE</span>
+                  </div>
+                  <div class="open-time__item">
+                    <div class="open-time__day">Sunday – Wednesday</div>
+                    <div class="open-time__time h5">11am – 10pm</div>
+                  </div>
+                  <div class="open-time__item">
+                    <div class="open-time__day">Thursday – Saturday</div>
+                    <div class="open-time__time h5">11am – midnight</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="open-time__store-title h4 rotate-2">
+                    <span class="rotate-inv-2 d-inline-block">DELIVERY</span>
+                  </div>
+                  <div class="open-time__item">
+                    <div class="open-time__day">Sunday – Wednesday</div>
+                    <div class="open-time__time h5">11am – 10pm</div>
+                  </div>
+                  <div class="open-time__item">
+                    <div class="open-time__day">Thursday – Saturday</div>
+                    <div class="open-time__time h5">11am – midnight</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- City -->
+            <div class="col-6">
+              <div class="open-time__city h3">Ha Noi</div>
+              <div class="row">
+                <div class="col-6">
+                  <div class="open-time__store-title h4 rotate">
+                    <span class="rotate-inv d-inline-block">STORE</span>
+                  </div>
+                  <div class="open-time__item">
+                    <div class="open-time__day">Sunday – Wednesday</div>
+                    <div class="open-time__time h5">11am – 10pm</div>
+                  </div>
+                  <div class="open-time__item">
+                    <div class="open-time__day">Thursday – Saturday</div>
+                    <div class="open-time__time h5">11am – midnight</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="open-time__store-title h4 rotate-2">
+                    <span class="rotate-inv-2 d-inline-block">DELIVERY</span>
+                  </div>
+                  <div class="open-time__item">
+                    <div class="open-time__day">Sunday – Wednesday</div>
+                    <div class="open-time__time h5">11am – 10pm</div>
+                  </div>
+                  <div class="open-time__item">
+                    <div class="open-time__day">Thursday – Saturday</div>
+                    <div class="open-time__time h5">11am – midnight</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel shows only for mobile devices -->
+
+        <div
+          id="myCarousel"
+          class="carousel slide d-lg-none"
+          data-bs-touch="true"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-label="Slide 1"
+              aria-current="true"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+              class=""
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <h3 class="open-time__city h3">Ho Chi Minh City</h3>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="open-time__store-title h4 rotate">
+                      <span class="rotate-inv d-inline-block">STORE</span>
+                    </div>
+                    <div class="open-time__item">
+                      <div class="open-time__day">Sunday – Wednesday</div>
+                      <div class="open-time__time h5">11am – 10pm</div>
+                    </div>
+                    <div class="open-time__item">
+                      <div class="open-time__day">Thursday – Saturday</div>
+                      <div class="open-time__time h5">11am – midnight</div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="open-time__store-title h4 rotate-2">
+                      <span class="rotate-inv-2 d-inline-block">DELIVERY</span>
+                    </div>
+                    <div class="open-time__item">
+                      <div class="open-time__day">Sunday – Wednesday</div>
+                      <div class="open-time__time h5">11am – 10pm</div>
+                    </div>
+                    <div class="open-time__item">
+                      <div class="open-time__day">Thursday – Saturday</div>
+                      <div class="open-time__time h5">11am – midnight</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="open-time__city h3">Ha Noi</div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="open-time__store-title h4 rotate">
+                      <span class="rotate-inv d-inline-block">STORE</span>
+                    </div>
+                    <div class="open-time__item">
+                      <div class="open-time__day">Sunday – Wednesday</div>
+                      <div class="open-time__time h5">11am – 10pm</div>
+                    </div>
+                    <div class="open-time__item">
+                      <div class="open-time__day">Thursday – Saturday</div>
+                      <div class="open-time__time h5">11am – midnight</div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="open-time__store-title h4 rotate-2">
+                      <span class="rotate-inv-2 d-inline-block">DELIVERY</span>
+                    </div>
+                    <div class="open-time__item">
+                      <div class="open-time__day">Sunday – Wednesday</div>
+                      <div class="open-time__time h5">11am – 10pm</div>
+                    </div>
+                    <div class="open-time__item">
+                      <div class="open-time__day">Thursday – Saturday</div>
+                      <div class="open-time__time h5">11am – midnight</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- END OF OPENING TIMES SECTION -->
+
+      <!-- START OF BLOG SECTION -->
+      <div class="blog-section container-fluid bg-dark">
+        <div class="container-lg py-5">
+          <div class="row">
+            <h2 class="blog-section-title title title-primary text-lg-center">
+              READ OUR BLOGS
+            </h2>
+          </div>
+
+          <hr />
+
+          <div class="row blog-section-content">
+            <!-- Blog -->
+            <div class="col-lg-4 col-9">
+              <div class="blog-section-card card bg-transparent text-center">
+                <img
+                  src="./assets/images/chicken-feature-1.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title text-secondary h5">BLOG 1</h3>
+                  <a href="" class="card-btn btn btn-link btn-sm">READ MORE!</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="col-lg-4 col-9">
+              <div class="blog-section-card card bg-transparent text-center">
+                <img
+                  src="./assets/images/chicken-feature-1.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title text-secondary h5">BLOG 1</h3>
+                  <a href="" class="card-btn btn btn-link btn-sm">READ MORE!</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="col-lg-4 col-9">
+              <div class="blog-section-card card bg-transparent text-center">
+                <img
+                  src="./assets/images/chicken-feature-1.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="card-title text-secondary h5">BLOG 1</h3>
+                  <a href="" class="card-btn btn btn-link btn-sm">READ MORE!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF BLOG SECTION -->
+    </div>
+    <!-- END OF PAGE CONTENT -->
+
+    <!-- SCRIPTS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- Ionic Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

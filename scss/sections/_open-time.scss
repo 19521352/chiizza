@@ -1,0 +1,15 @@
+@use "../custom" as *;
+
+.open-time {
+  .open-time__store-title {
+    font-size: 1.4 * $font-size-base;
+    padding: 0.25em 0.5em;
+    display: inline-block;
+    background-color: $white;
+    color: $dark;
+  }
+
+  .open-time__time {
+    text-transform: uppercase;
+  }
+}

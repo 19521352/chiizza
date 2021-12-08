@@ -1,0 +1,14 @@
+.blog-section-content {
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+}
+
+.blog-section-card {
+  border: none;
+  .card-img-top {
+    border-radius: 0;
+    height: 12rem;
+    object-fit: cover;
+  }
+}
